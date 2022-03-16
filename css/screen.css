@@ -192,6 +192,33 @@ a:focus {
     http://www.phpied.com/delay-loading-your-print-css/
 */
 
+/* 
+    Componement Author 
+*/
+.c-author {
+  display: flex;
+  align-items: center;
+  margin-bottom: 24px;
+  gap: 16px;
+}
+.c-author__name,
+.c-author__description {
+  margin-bottom: 0;
+}
+.c-author__name {
+  font-size: 16px;
+  line-height: 24px;
+}
+.c-author__description {
+  font-size: 14px;
+  font-family: 'interWeb', 'Helvetica Neue', Helvetica, arial, sans-serif;
+  line-height: 24px;
+}
+.c-author__image {
+  width: 56px;
+  height: 56px;
+  border-radius: 100%;
+}
 @media print {
   *,
   *:before,
